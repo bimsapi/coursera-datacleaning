@@ -17,7 +17,7 @@ Each data set (`train`, `test`) is processed through logic that:
 * Loads subjects from `subect_train.txt`
 * Combined into a new data frame via `cbind`
 
-Then the train and test sets are merged via `rbind()` into a single set, aggregated, and written out.
+Then the train and test sets are merged via `rbind()` into a single set, aggregated, and written to disk.
 
 Notes
 =====
